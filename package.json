@@ -1,0 +1,55 @@
+{
+  "name": "utigodesk",
+  "productName": "UtigoDesk Framework",
+  "version": "0.0.1",
+  "author": "© 2021 FreeASM™ Corporation",
+  "description": "A C++ & JavaScript Desktop's Electron Framework",
+  "main": "src/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "latest",
+    "node-addon-api": "latest"
+  },
+  "scripts": {
+    "start": "electron .",
+    "make": "electron-builder",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "gypfile": true,
+  "devDependencies": {
+    "electron": "beta",
+    "electron-builder": "latest"
+  },
+  "build": {
+    "productName": "UtigoDesk Framework",
+    "appId": "UtigoDesk.Framework.Win32App.0.0.1",
+    "copyright": "© FreeASM Corporation. All rights reserved",
+    "asar": true,
+    "asarUnpack": [
+      "Release"
+    ],
+    "nodeGypRebuild": false,
+    "npmRebuild": false,
+    "directories": {
+      "output": "out"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "nsis_resource/icons/256x256.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": false,
+      "allowToChangeInstallationDirectory": false,
+      "installerIcon": "nsis_resource/icons/256x256.ico",
+      "uninstallerIcon": "nsis_resource/icons/256x256.ico",
+      "installerHeaderIcon": "nsis_resource/icons/256x256.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "UtigoDesk Framework"
+    }
+  }
+}
