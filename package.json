@@ -18,7 +18,7 @@
   },
   "gypfile": true,
   "devDependencies": {
-    "electron": "beta",
+    "electron": "latest",
     "electron-builder": "latest"
   },
   "build": {
