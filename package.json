@@ -2,7 +2,7 @@
   "name": "utigodesk",
   "productName": "UtigoDesk Framework",
   "version": "0.0.1",
-  "author": "© 2021 FreeASM™ Corporation",
+  "author": "© 2022 FreeASM™ Corporation",
   "description": "A C++ & JavaScript Desktop's Electron Framework",
   "main": "src/main.js",
   "license": "MIT",
@@ -43,7 +43,7 @@
     "nsis": {
       "oneClick": false,
       "allowElevation": false,
-      "allowToChangeInstallationDirectory": false,
+      "allowToChangeInstallationDirectory": true,
       "installerIcon": "nsis_resource/icons/256x256.ico",
       "uninstallerIcon": "nsis_resource/icons/256x256.ico",
       "installerHeaderIcon": "nsis_resource/icons/256x256.ico",
