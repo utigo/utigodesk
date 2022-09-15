@@ -35,7 +35,16 @@
 build
 node_modules
 .vscode
-out
 dist
 yarn.lock
+.github
+npm
+.eslintrc
+.prettierignore
+*.node
 package-lock.json
+
+#Added by Electron
+/nsis
+/Release
+/out
