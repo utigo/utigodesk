@@ -16,10 +16,13 @@
                 'CharacterSet': '1'
             },
             'msvs_settings': {
+                'ClCompile': {
+                    "LanguageStandard": "stdcpplatest"
+                },
                 'VCCLCompilerTool': {'ExceptionHandling': 0,
                                      'RuntimeLibrary': 2,
-                                     'Optimization': 2,
-                                     'AdditionalOptions': ['/std:c++latest']},
+                                     'Optimization': 2
+                                    },
                 'VCLinkerTool': {
                     'LinkTimeCodeGeneration': 1,
                     'AdditionalLibraryDirectories': [
@@ -48,10 +51,13 @@
                 'CharacterSet': '1'
             },
             'msvs_settings': {
+                'ClCompile': {
+                    "LanguageStandard": "stdcpplatest"
+                },
                 'VCCLCompilerTool': {'ExceptionHandling': 0,
                                      'RuntimeLibrary': 2,
-                                     'Optimization': 2,
-                                     'AdditionalOptions': ['/std:c++latest']},
+                                     'Optimization': 2
+                                    },
                 'VCLinkerTool': {
                     'LinkTimeCodeGeneration': 1,
                     'AdditionalLibraryDirectories': [

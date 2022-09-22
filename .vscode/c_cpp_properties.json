@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/Users/Roadrunner-DELL/AppData/Local/node-gyp/Cache/19.0.12/include/node",
-                "../include"
+                "../include",
+                "./node_modules/node-addon-api"
             ],
             "defines": [
                 "UNICODE",
