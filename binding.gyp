@@ -15,10 +15,12 @@
             'msvs_configuration_attributes': {
                 'CharacterSet': '1'
             },
-            'msvs_settings': {
-                'ClCompile': {
+            "msbuild_settings": {
+                "ClCompile": {
                     "LanguageStandard": "stdcpplatest"
-                },
+                }
+            },
+            'msvs_settings': {
                 'VCCLCompilerTool': {'ExceptionHandling': 0,
                                      'RuntimeLibrary': 2,
                                      'Optimization': 2
@@ -50,10 +52,12 @@
             'msvs_configuration_attributes': {
                 'CharacterSet': '1'
             },
-            'msvs_settings': {
-                'ClCompile': {
+            "msbuild_settings": {
+                "ClCompile": {
                     "LanguageStandard": "stdcpplatest"
-                },
+                }
+            },
+            'msvs_settings': {
                 'VCCLCompilerTool': {'ExceptionHandling': 0,
                                      'RuntimeLibrary': 2,
                                      'Optimization': 2
